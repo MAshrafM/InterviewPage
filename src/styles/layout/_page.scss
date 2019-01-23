@@ -1,4 +1,5 @@
 .content{
+  margin-top: $content-offset-vert;
   &__header{
     
     &-block{
@@ -11,14 +12,14 @@
     }
     
     &-subblock{
-    
+      margin-top: $content-subheader-offset-vert;
       h3{
         font-size: $alt-font-size;
         color: $content-subheader-color;
       }
     }
     &--title{
-      
+      margin-left: 36px;
     }
     
     &--date{

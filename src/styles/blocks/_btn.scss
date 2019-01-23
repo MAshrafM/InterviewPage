@@ -2,6 +2,13 @@
   height: $btn-height;
   font-family: $alt-font-family;
   
+  img{
+    width: $btn-img-size;
+    height: $btn-img-size;
+    position: relative;
+    top: 1px;
+  }
+  
   &--light{
     background-color: $white;
     color: $btn-color;

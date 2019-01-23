@@ -20,7 +20,7 @@ $search-icon-size: 17.5px;
 $search-bg: $off-white;
 $search-padding: 39px;
 $search-border-color: $off-blue;
-$search-text-color: $bluish-grey
+$search-text-color: $bluish-grey;
 $search-icon-offset-horz: 12px;
 $arrow-icon-size: 12.6px;
 $arrow-down-offset-horz: 9.6px;
@@ -31,7 +31,10 @@ $notification-radius: 18px;
 $notification-icon-width: 24px;
 $profile-radius: 39px;
 // content
+$content-offset-vert: 42px;
 $content-header-color: $dark-blue;
 $content-subheader-color: $grey;
+$content-subheader-offset-vert: 25px;
 $btn-height: 36px;
 $btn-color: $dark-bluish-grey;
+$btn-img-size: 18px;
