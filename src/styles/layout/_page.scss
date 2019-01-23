@@ -26,4 +26,43 @@
       
     }
   }
+  
+  &__side{
+    margin-top: 90px;
+  }
+  
+  &__card{
+    color: $panel-color;
+    background-color: $white;
+    padding: 30px 36px;
+    min-height: 190px;
+    margin-top: 36px;
+    flex-direction: column;
+    justify-content: space-around;
+    
+    &:first-child{
+      margin-top: 0;
+    }
+    
+    &-item{
+      img{
+        width: 18px;
+      }
+      
+      &-h{
+        font-family: $default-font-family-bold;
+        color: $btn-color;
+      }
+      
+      &-tag{
+        padding: 12px 24px;
+        background-color: $bg-color;
+        border-radius: 2px;
+        display: inline-flex;
+        margin-top: 8px;
+        font-family: $default-font-family-bold;
+        color: $content-header-color;
+      }
+    }
+  }
 }

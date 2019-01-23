@@ -3,11 +3,13 @@ $white: #ffffff;
 $off-white: #f7f7f7;
 $bluish-white: #f7f7fb;
 $bluish-grey: #a39dae;
+$m-bluish-grey: #7b859d;
 $dark-bluish-grey: #5a647b;
 $grey: #63656b;
 $off-blue: #d1cfe5;
 $pale-red: #ff374f;
 $dark-blue: #0c0e19;
+$bright-blue: #796eff;
 
 // body
 $bg-color: $bluish-white;
@@ -38,3 +40,8 @@ $content-subheader-offset-vert: 25px;
 $btn-height: 36px;
 $btn-color: $dark-bluish-grey;
 $btn-img-size: 18px;
+$active-panel-tab-color: $bright-blue;
+$panel-color: $m-bluish-grey;
+$panel-footer-height: 52px;
+$panel-footer-bg: $bluish-white;
+$panel-footer-color: $grey;
