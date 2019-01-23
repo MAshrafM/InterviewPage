@@ -2,6 +2,10 @@
 $white: #ffffff;
 $off-white: #f7f7f7;
 $bluish-white: #f7f7fb;
+$bluish-grey: #a39dae;
+$dark-bluish-grey: #5a647b;
+$grey: #63656b;
+$off-blue: #d1cfe5;
 $pale-red: #ff374f;
 $dark-blue: #0c0e19;
 
@@ -11,16 +15,23 @@ $bg-color: $bluish-white;
 $header-hight: 90px;
 $header-search-hight: 39px;
 $header-collapse-offset-vert: 25px;
-
+// header search bar
 $search-icon-size: 17.5px;
 $search-bg: $off-white;
 $search-padding: 39px;
+$search-border-color: $off-blue;
+$search-text-color: $bluish-grey
 $search-icon-offset-horz: 12px;
 $arrow-icon-size: 12.6px;
 $arrow-down-offset-horz: 9.6px;
-
+// header nav
 $nav-text-color: $dark-blue;
+//header profile
 $notification-radius: 18px;
 $notification-icon-width: 24px;
-
 $profile-radius: 39px;
+// content
+$content-header-color: $dark-blue;
+$content-subheader-color: $grey;
+$btn-height: 36px;
+$btn-color: $dark-bluish-grey;

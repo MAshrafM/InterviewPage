@@ -1,0 +1,9 @@
+.btn{
+  height: $btn-height;
+  font-family: $alt-font-family;
+  
+  &--light{
+    background-color: $white;
+    color: $btn-color;
+  }
+}

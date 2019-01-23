@@ -1,6 +1,7 @@
 .header{
   height: $header-hight;
   background-color: $white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, .13);
   
   &__form{
     position: relative;
@@ -9,10 +10,10 @@
       background-color: $search-bg;
       height: $header-search-hight;
       padding-right: $search-padding;
-      
+      border: 2px solid $search-border-color;
+      border-radius: 4px;
       &::placeholder{
-        
-        
+        color: $search-text-color;
       }
     }
     

@@ -6,6 +6,13 @@
 }
 
 @font-face {
+  font-family: 'TheSansBold';
+  src: url('../fonts/TheSans-Bold.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
   font-family: 'Kufi';
   src: url('../fonts/NotoKufiArabic.ttf');
   font-weight: normal;
@@ -13,6 +20,7 @@
 }
 
 $default-font-family: 'TheSans', serif;
+$default-font-family-bold: 'TheSansBold', 'serif';
 $alt-font-family: 'Kufi', serif;
 
 $light-font-weight: 300;
@@ -23,7 +31,8 @@ $bold-font-weight: 700;
 $extra-bold-font-weight: 900;
 
 $default-font-size: 14px;
-
+$alt-font-size: 1.28rem;
+$medium-font-size: 1.54rem;
 $default-line-height: 1;
 
 body{

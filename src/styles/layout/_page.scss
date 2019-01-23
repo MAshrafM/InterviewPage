@@ -1,0 +1,28 @@
+.content{
+  &__header{
+    
+    &-block{
+      
+      h1{
+        color: $content-header-color;
+        font-family: $default-font-family-bold;
+        font-size: $medium-font-size;
+      }
+    }
+    
+    &-subblock{
+    
+      h3{
+        font-size: $alt-font-size;
+        color: $content-subheader-color;
+      }
+    }
+    &--title{
+      
+    }
+    
+    &--date{
+      
+    }
+  }
+}
