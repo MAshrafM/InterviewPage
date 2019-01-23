@@ -56,12 +56,11 @@ module.exports = {
     },
     {
       test: /\.(gif|png|jpe?g|svg)$/i,
-      include: path.resolve(__dirname, 'src/images/img'),
+      include: path.resolve(__dirname, 'src/images'),
       exclude: /node_modules/,
       loader: 'url-loader',
       options: {
         limit: 8192
-        //outputPath: path.resolve(__dirname, 'docs/images')
       }
     },
     {

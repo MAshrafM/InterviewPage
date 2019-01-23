@@ -1,0 +1,122 @@
+.header{
+  height: $header-hight;
+  background-color: $white;
+  
+  &__form{
+    position: relative;
+    
+    input{
+      background-color: $search-bg;
+      height: $header-search-hight;
+      padding-right: $search-padding;
+      
+      &::placeholder{
+        
+        
+      }
+    }
+    
+    &-icon{
+      &--search{ 
+        position: absolute;
+        right: $search-icon-offset-horz;
+        
+        img{
+          width: $search-icon-size;
+          height: $search-icon-size;
+        }
+      }
+      
+      &--arrow{
+        position: absolute;
+        left: $arrow-down-offset-horz;
+        
+        img{
+          width: $arrow-icon-size;
+        }
+      }
+    }
+  }
+  
+  &__nav{
+    margin-right: 0px;
+    margin-top: 6px;
+    font-family: $alt-font-family;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+    @include breakpoint(tablet){
+      margin-right: 30px;
+      margin-top: 0;
+      
+    }
+    
+    &-link{
+      color: $nav-text-color !important;
+    }
+    
+  }
+  
+  &__icons{
+    position: relative;
+    img{
+      width: $notification-icon-width;
+      height: auto;
+    }
+    
+    &-tag{
+      position: absolute;
+      top: -6px;
+      left: -6px;
+      width: $notification-radius;
+      height: $notification-radius;
+      border-radius: 50%;
+      border: 1px solid $white;
+      background-color: $pale-red;
+      color: $white;
+      text-align: center;
+      line-height: $notification-radius;
+    }
+  }
+  
+  &__info{
+    flex-direction: row;
+    justify-content: center;
+  }
+  &__profile{
+    margin-right: 12px;
+    &-img{
+      &.dropdown-toggle{
+        &::after{
+          display: none;
+          visibility: hidden;
+        }
+      }
+      
+      img{
+        width: $profile-radius;
+        height: $profile-radius;
+      }
+    }  
+      
+    &-name{
+      margin-right: .6rem;
+    }
+    
+    &-icon{
+      margin-right: 7px;
+      img{
+        width: $arrow-icon-size;
+      }
+    }
+  }
+  
+  .navbar-collapse{
+    margin-top: $header-collapse-offset-vert;
+    
+    @include breakpoint(tablet){
+      margin-top: 0;
+    }
+  }
+}

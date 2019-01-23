@@ -1,0 +1,37 @@
+@font-face {
+  font-family: 'TheSans';
+  src: url('../fonts/TheSans.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Kufi';
+  src: url('../fonts/NotoKufiArabic.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+$default-font-family: 'TheSans', serif;
+$alt-font-family: 'Kufi', serif;
+
+$light-font-weight: 300;
+$default-font-weight: 400;
+$regular-font-weight: 400;
+$medium-font-weight: 500;
+$bold-font-weight: 700;
+$extra-bold-font-weight: 900;
+
+$default-font-size: 14px;
+
+$default-line-height: 1;
+
+body{
+  font: {
+    family: $default-font-family;
+    weight: $default-font-weight;
+    size: $default-font-size;
+  }
+  color: #0c0e19;
+  line-height: $default-line-height;
+}

@@ -3,18 +3,24 @@ $white: #ffffff;
 $off-white: #f7f7f7;
 $bluish-white: #f7f7fb;
 $pale-red: #ff374f;
+$dark-blue: #0c0e19;
 
 // body
 $bg-color: $bluish-white;
 //header
-$header-hight: 150px;
-$header-search-hight: 65px;
+$header-hight: 90px;
+$header-search-hight: 39px;
+$header-collapse-offset-vert: 25px;
 
+$search-icon-size: 17.5px;
 $search-bg: $off-white;
-$search-icon-offset-horz: 20px;
-$arrow-down-offset-horz: 15px;
+$search-padding: 39px;
+$search-icon-offset-horz: 12px;
+$arrow-icon-size: 12.6px;
+$arrow-down-offset-horz: 9.6px;
 
-$profile-radius: 65px;
-$notification-radius: 47px;
-$notification-color: $pale-red;
+$nav-text-color: $dark-blue;
+$notification-radius: 18px;
+$notification-icon-width: 24px;
 
+$profile-radius: 39px;
