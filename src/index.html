@@ -99,118 +99,218 @@
             </button>
           </div>
         </div>
-        <div class="content__inner d-flex">
-          <div class="panel col-8">
-            <ul class="nav nav-tabs panel-nav" id="swTab" role="tablist">
-              <li class="nav-item panel-nav-item">
-                <a class="nav-link panel-nav-link active" id="desc-tab" data-toggle="tab" href="#description" role="tab" aria-controls="desc" aria-selected="true">عرض تفاصيل المشروع</a>
-              </li>
-              <li class="nav-item panel-nav-item">
-                <a class="nav-link panel-nav-link" id="invite-tab" data-toggle="tab" href="#invitation" role="tab" aria-controls="invite" aria-selected="true">ارسال دعوة</a>
-              </li>
-              
-              <li class="nav-item panel-nav-item">
-                <a class="nav-link panel-nav-link" id="suggest-tab" data-toggle="tab" href="#suggestion" role="tab" aria-controls="suggest" aria-selected="true">عرض الاقتراحات</a>
-              </li>
-              
-              <li class="nav-item panel-nav-item">
-                <a class="nav-link panel-nav-link" id="hire-tab" data-toggle="tab" href="#hiring" role="tab" aria-controls="hire" aria-selected="true">عرض الاقتراحات</a>
-              </li>
-            </ul>
-            
-            <div class="tab-content panel-content" id="swTabContent">
-              <div class="tab-pane fade show active" id="description" role="tabpanel" aria-labelledby="desc-tab">
-                <p>
-                ببساطة نص شكلي ويُستخدم في صناعات المطابع ودور النشر. كان لوريم إيبسوم ولايزال المعيار للنص الشكلي منذ القرن الخامس عشر عندما قامت مطبعة مجهولة برص مجموعة من الأحرف بشكل عشوائي أخذتها من نص، لتكوّن كتيّب بمثابة دليل
-                </p>
-                <p>
-                 أو مرجع شكلي لهذه الأحرف. خمسة قرون من الزمن لم تقضي على هذا النص، بل انه حتى صار مستخدماً
-                </p>
-                <p>
-                كان لوريم إيبسوم ولايزال المعيار للنص الشكلي منذ القرن الخامس عشر عندما قامت مطبعة مجهولة برص مجموعة من الأحرف بشكل عشوائي أخذتها من نص، لتكوّن كتيّب بمثابة دليل أو مرجع شكلي لهذه الأحرف. خمسة قرون من الزمن لم تقضي على هذا النص.
-                </p>
-                <div class="panel-content__attach d-flex justify-content-between">
-                  <div class="panel-content__attach-block">
-                    <img src="images/attach-icon.png" alt="attach" />
-                    ملف مرفق
-                  </div>
-                  <div class="panel-content__attach-block">
-                    <img src="images/attach-icon.png" alt="attach" />
-                    ملف مرفق
-                  </div>
-                  <div class="panel-content__attach-block">
-                    <img src="images/attach-icon.png" alt="attach" />
-                    ملف مرفق
-                  </div>
-                </div>
+        <div class="content__inner panel">
+          <div class="row">
+            <div class="col">
+              <ul class="nav nav-tabs panel-nav" id="swTab" role="tablist">
+                <li class="nav-item panel-nav-item">
+                  <a class="nav-link panel-nav-link active" id="desc-tab" data-toggle="tab" href="#description" role="tab" aria-controls="desc" aria-selected="true">عرض تفاصيل المشروع</a>
+                </li>
+                <li class="nav-item panel-nav-item">
+                  <a class="nav-link panel-nav-link" id="invite-tab" data-toggle="tab" href="#invitation" role="tab" aria-controls="invite" aria-selected="true">ارسال دعوة</a>
+                </li>
                 
-              </div>
-              
-              <div class="tab-pane fade" id="invitation" role="tabpanel" aria-labelledby="invite-tab">
-                To be Filled with Invitation
-              </div>
-              <div class="tab-pane fade" id="suggestion" role="tabpanel" aria-labelledby="suggest-tab">
-                To be Filled with Suggestion
-              </div>
-              <div class="tab-pane fade" id="hiring" role="tabpanel" aria-labelledby="hire-tab">
-                To be Filled with Hiring
-              </div>
-            </div>
-            <div class="panel-footer d-flex">
-              <div class="panel-footer__item">
-                <img class="panel-footer__item--img" src="images/enter-icon.png" alt="enter" />
-                <label class="panel-footer__item--label">الدعوات المرسلة:</label>
-                <span class="panel-footer__item--tag">13</span>
-              </div>
-              <div class="panel-footer__item">
-                <img class="panel-footer__item--img" src="images/check-icon.png" alt="check" />
-                <label class="panel-footer__item--label">الدعوات المجابة:</label>
-                <span class="panel-footer__item--tag">4</span>
-              </div>
-              <div class="panel-footer__item">
-                <img class="panel-footer__item--img" src="images/time-icon.png" alt="time" />
-                <label class="panel-footer__item--label">اخر ظهور للعميل:</label>
-                <span class="panel-footer__item--tag">من ساعتين</span>
-              </div>
+                <li class="nav-item panel-nav-item">
+                  <a class="nav-link panel-nav-link" id="suggest-tab" data-toggle="tab" href="#suggestion" role="tab" aria-controls="suggest" aria-selected="true">عرض الاقتراحات</a>
+                </li>
+                
+                <li class="nav-item panel-nav-item">
+                  <a class="nav-link panel-nav-link" id="hire-tab" data-toggle="tab" href="#hiring" role="tab" aria-controls="hire" aria-selected="true">عرض الاقتراحات</a>
+                </li>
+              </ul>
             </div>
           </div>
-          
-          <div class="content__side col-4">
-            <div class="content__card d-flex">
-              <div class="content__card-item">
-                <img class="content__card-item--img" src="images/circle-icon.png" alt="circle" />
-                <label class="content__card-item--title">السعر:</label>
-                <span class="content__card-tag">200 ريال</span>
+          <div class="row">
+             <div class="col-md-8 col-xs-12">
+              <div class="tab-content panel-content" id="swTabContent">
+                <div class="tab-pane fade show active" id="description" role="tabpanel" aria-labelledby="desc-tab">
+                  <p>
+                  ببساطة نص شكلي ويُستخدم في صناعات المطابع ودور النشر. كان لوريم إيبسوم ولايزال المعيار للنص الشكلي منذ القرن الخامس عشر عندما قامت مطبعة مجهولة برص مجموعة من الأحرف بشكل عشوائي أخذتها من نص، لتكوّن كتيّب بمثابة دليل
+                  </p>
+                  <p>
+                   أو مرجع شكلي لهذه الأحرف. خمسة قرون من الزمن لم تقضي على هذا النص، بل انه حتى صار مستخدماً
+                  </p>
+                  <p>
+                  كان لوريم إيبسوم ولايزال المعيار للنص الشكلي منذ القرن الخامس عشر عندما قامت مطبعة مجهولة برص مجموعة من الأحرف بشكل عشوائي أخذتها من نص، لتكوّن كتيّب بمثابة دليل أو مرجع شكلي لهذه الأحرف. خمسة قرون من الزمن لم تقضي على هذا النص.
+                  </p>
+                  <div class="panel-content__attach d-flex justify-content-between">
+                    <div class="panel-content__attach-block">
+                      <img src="images/attach-icon.png" alt="attach" />
+                      ملف مرفق
+                    </div>
+                    <div class="panel-content__attach-block">
+                      <img src="images/attach-icon.png" alt="attach" />
+                      ملف مرفق
+                    </div>
+                    <div class="panel-content__attach-block">
+                      <img src="images/attach-icon.png" alt="attach" />
+                      ملف مرفق
+                    </div>
+                  </div>
+                  
+                </div>
+                
+                <div class="tab-pane fade" id="invitation" role="tabpanel" aria-labelledby="invite-tab">
+                  To be Filled with Invitation
+                </div>
+                <div class="tab-pane fade" id="suggestion" role="tabpanel" aria-labelledby="suggest-tab">
+                  To be Filled with Suggestion
+                </div>
+                <div class="tab-pane fade" id="hiring" role="tabpanel" aria-labelledby="hire-tab">
+                  To be Filled with Hiring
+                </div>
               </div>
-              <div class="content__card-item">
-                <img class="content__card-item--img" src="images/time-icon.png" alt="circle" />
-                <label class="content__card-item--title">موعد بداية المشروع:</label>
-                <span class="content__card-tag">3 فبراير 2018</span>
-              </div>
-              <div class="content__card-item">
-                <img class="content__card-item--img" src="images/time-icon.png" alt="circle" />
-                <label class="content__card-item--title">موعد التسليم المطلوب:</label>
-                <span class="content__card-tag">12 فبراير 2018</span>
+              <div class="panel-footer d-flex">
+                <div class="panel-footer__item">
+                  <img class="panel-footer__item--img" src="images/enter-icon.png" alt="enter" />
+                  <label class="panel-footer__item--label">الدعوات المرسلة:</label>
+                  <span class="panel-footer__item--tag">13</span>
+                </div>
+                <div class="panel-footer__item">
+                  <img class="panel-footer__item--img" src="images/check-icon.png" alt="check" />
+                  <label class="panel-footer__item--label">الدعوات المجابة:</label>
+                  <span class="panel-footer__item--tag">4</span>
+                </div>
+                <div class="panel-footer__item">
+                  <img class="panel-footer__item--img" src="images/time-icon.png" alt="time" />
+                  <label class="panel-footer__item--label">اخر ظهور للعميل:</label>
+                  <span class="panel-footer__item--tag">من ساعتين</span>
+                </div>
               </div>
             </div>
-            <div class="content__card d-flex">
-              <div class="content__card-item">
-                <h3 class="content__card-item-h">الخبرات</h3>
+            
+            <div class="content__side col-md-4 col-xs-12">
+              <div class="content__card d-flex">
+                <div class="content__card-item">
+                  <img class="content__card-item--img" src="images/circle-icon.png" alt="circle" />
+                  <label class="content__card-item--title">السعر:</label>
+                  <span class="content__card-tag">200 ريال</span>
+                </div>
+                <div class="content__card-item">
+                  <img class="content__card-item--img" src="images/time-alt-icon.png" alt="circle" />
+                  <label class="content__card-item--title">موعد بداية المشروع:</label>
+                  <span class="content__card-tag">3 فبراير 2018</span>
+                </div>
+                <div class="content__card-item">
+                  <img class="content__card-item--img" src="images/time-alt-icon.png" alt="circle" />
+                  <label class="content__card-item--title">موعد التسليم المطلوب:</label>
+                  <span class="content__card-tag">12 فبراير 2018</span>
+                </div>
               </div>
-              <div class="content__card-item">
-                <span class="content__card-item-tag">مصور</span>
-                <span class="content__card-item-tag">مخرج</span>
-                <span class="content__card-item-tag">فني</span>
-                <span class="content__card-item-tag">مساعد مصور</span>
-                <span class="content__card-item-tag">تصوير</span>
+              <div class="content__card d-flex">
+                <div class="content__card-item">
+                  <h3 class="content__card-item-h">الخبرات</h3>
+                </div>
+                <div class="content__card-item">
+                  <span class="content__card-item-tag">مصور</span>
+                  <span class="content__card-item-tag">مخرج</span>
+                  <span class="content__card-item-tag">فني</span>
+                  <span class="content__card-item-tag">مساعد مصور</span>
+                  <span class="content__card-item-tag">تصوير</span>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
     </main>
-    <footer>
-    
+    <footer class="footer">
+      <div class="container">
+        <div class="row footer-nav">
+          <div class="col-3">
+            <nav class="navbar">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">من نحن</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">المدونة</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">شروط الاستخدام</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">قوانين الخصوصية</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">تواصل معنا</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <div class="col-3">
+            <nav class="navbar">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">من نحن</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">المدونة</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">شروط الاستخدام</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">قوانين الخصوصية</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">تواصل معنا</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <div class="col-3">
+            <nav class="navbar">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">من نحن</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">المدونة</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">شروط الاستخدام</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">قوانين الخصوصية</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">تواصل معنا</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <div class="col-3">
+            <nav class="navbar">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">من نحن</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">المدونة</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">شروط الاستخدام</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">قوانين الخصوصية</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">تواصل معنا</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+        <div class="footer-copy d-flex">
+          <p>جميع الحقوق محفوظة لموقع فريلانسر</p>
+          <div class="footer-social">
+            <img src="images/social-icon.png" alt="insta" />
+            <img src="images/tweet-icon.png" alt="insta" />
+            <img src="images/fb-icon.png" alt="insta" />
+          </div>
+        </div>
+      </div>
     </footer>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>

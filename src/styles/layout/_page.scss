@@ -1,7 +1,12 @@
 .content{
   margin-top: $content-offset-vert;
   &__header{
+    flex-direction: column;
+    text-align: center;
     
+    @include breakpoint(tablet){
+      flex-direction: row;
+    }
     &-block{
       
       h1{
@@ -28,7 +33,7 @@
   }
   
   &__side{
-    margin-top: 90px;
+    margin-top: 31px;
   }
   
   &__card{
@@ -39,6 +44,7 @@
     margin-top: 36px;
     flex-direction: column;
     justify-content: space-around;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .13);
     
     &:first-child{
       margin-top: 0;
@@ -51,7 +57,7 @@
       
       &-h{
         font-family: $default-font-family-bold;
-        color: $btn-color;
+        color: $card-head-color;
       }
       
       &-tag{
@@ -61,7 +67,7 @@
         display: inline-flex;
         margin-top: 8px;
         font-family: $default-font-family-bold;
-        color: $content-header-color;
+        color: $card-tag-color;
       }
     }
   }
