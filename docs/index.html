@@ -1,0 +1,324 @@
+<!doctype html>
+<html lang="ar">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Interview</title>
+    <meta name="description" content="a front end website from a psd file"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdn.rtlcss.com/bootstrap/v4.0.0/css/bootstrap.min.css" integrity="sha384-P4uhUIGk/q1gaD/NdgkBIl3a6QywJjlsFJFk7SPRdruoGddvRVSwv5qFnvZ73cpz" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body dir="rtl">
+    <!-- Site Header -->
+    <nav class="navbar navbar-expand-lg navbar-light header">
+      <div class="container">
+        <a class="navbar-brand header__logo" href="#">
+          <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAMAAAAp4XiDAAAB5lBMVEVHcEwMDhkMDhkMDhkMDhkMDhkMDhkMDhkMDhkMDhkMDhkMDhkMDhkMDhkMDhkMDhkMDhkMDhkMDhkMDhkMDhkMDhkMDhkMDhkMDhkMDhkMDhkMDhkMDhkMDhkMDhkMDhkMDhkMDhkMDhkMDhkMDhkMDhkMDhkMDhkMDhkMDhkMDhkMDhkMDhkMDhkMDhkMDhkMDhkMDhkMDhkMDhkMDhkMDhkMDhkMDhkMDhkMDhkMDhkMDhkMDhkMDhkMDhkMDhkMDhkMDhkMDhkMDhkMDhkMDhkMDhkMDhkMDhkMDhkMDhkMDhkMDhkMDhkMDhkMDhkMDhkMDhkMDhkMDhkMDhkMDhkMDhkMDhkMDhkMDhkMDhkMDhkMDhkMDhkMDhkMDhkMDhkMDhkMDhkMDhkMDhkMDhkMDhkMDhkMDhkMDhkMDhkMDhkMDhkMDhkMDhkMDhkMDhkMDhkMDhkMDhkMDhkMDhkMDhkMDhkMDhkMDhkMDhkMDhkMDhkMDhkMDhkMDhkMDhkMDhkMDhkMDhkMDhkMDhkMDhkMDhkMDhkMDhkMDhkMDhkMDhkMDhkMDhkMDhkMDhkMDhkMDhkMDhkMDhkMDhkMDhkMDhkMDhkMDhkMDhkMDhkMDhkMDhkMDhkMDhkMDhkMDhn+PQt5AAAAoXRSTlMAChb7ufz+Bv3vtbte+PnuDKFx2R2S2hwxCcYBj50OpRnIn+z6K+fTG6zJlNyDMiIffaqwHrpnlkGXVjvjEaBVDe0SBQcve9XWIfI6At/qdQTmOGndF2A2whVdT/GYkcQoD7SBnHKZ8KcD85priOmQGvW+lfbrToTPc4yOvPdlhdJYMF9jk+iiPmjUcFezLFFv5bKjUC104hAYIDlZjS5513NfCRYAAAKpSURBVEjHnVZnQ9swEHUGJGSQRUILYacEGjaEshKSltW9B6V0UEonpXvRCd1775V/Wt/ZsjykhFpffPfOz5Z0T3cSBMMo84Ttoay3NBuyhz1lQsHR0zme04zxzo68hNEuZ84wnF2jXII1XZxjjuK0lc0YLslxR8kwg+BYp3pjyF0VXpybiRRRqN+hZ/jtJFbk8nwjaGbqyRmC2/1ahqVCDlxZLNdGMsFGOVRh0czKLcMzG41Trl6Q53dbPTd5HXeeKciG1ORqxemTf9RPGQMS4huU3GP7Tu2BD+90BZskpOm59MYDwqj1oX9Syljt4YuqNDa/RnD9fWmvL8iUGnRL+9C5q8uO7dYIwOVD6NVIjDYp5y9wHwLGNK7dC5FBG+qgDSndGLhUCQwXK/UhlMt1tLvB7EAl2o6CXc+Wyw3YPMtWXBxkYQzRemAc5EksAdFeNFtFawKtNbAtV3kU5y6Y9XkwI+IZRKwOPtPKV7Ib4lE02wUPPrfDVxroK+/mf74ZU59PmMVmtB4KYXyuEpFr9IUqFMuWIBX/PRDRJrAeCSh672kRuUwZRBfnaHLAPQBWUmiBRxyAI8oRrCaUyjqCxXaI7lmwWoRDeHwgvo2EA1Swu5XftIvecTAaBPSbIewl0ROUsl+hwGpvohbNUExMzMTyTWwyM5Wz/nypZAumcf7lxz9xjmBMyNKE+M0cMRMH2US5IEXpLRalDysqSqT0PV156VMK7G9Wgf2EYEpXYEkZz/6gZdypLeNxXRmnzaJXQUZSk5Z8zYK2pFffGS0pympJqsYX1d0nMp8fMxufrr0q7fLrVJrbXsW5Tat29ot7duHX3PuQqolPO/73qjDAuZAEeBeSgJV7i1liX3uWClyuJrSEvwUuVxJrOZGM+GIxXySZWO4xxv8BUFUuNALy+oAAAAAASUVORK5CYII=" alt="logo" />
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapsable" aria-controls="navbarCollapsable" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapsable">
+          <form class="form-inline header__form">
+            <input class="form-control" type="search" placeholder="ابحث عن عمل" aria-label="Search" />
+            <span class="header__form-icon--search"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAdCAYAAABWk2cPAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAmdJREFUeNq8lkloFEEUhjszrgHXeFNEb0MQGS8iGnDw5gKCqImKEEFBXBJzDOohil6CikYPQpRcIm6IB8GFIAomCoJLLuLBgAdFMGrcIRrjV/C3FE1XbzPxhw9eFz3zN1Wv3ntVrU2jXoQK0ADLFc+CX/AO+uE2XIYPXgqNizBrh9VQFfKb+WItHIOz0AZDWU13wXGYaK19hicwCDmYC0UYD5NhH2yAeuiNM80Fng/DGcvwPqyEGlgBG2E9LNbaDhjQu7OhR7uT2HQPHFD8E7ZBCW7BSMhvv0InLIDTWpukMy4mMS3obIyGYRV0JcwL84F7rQ+uhm6YEGfabr20G+556XUELiiuhZ1RpgXrHB7BOS+7mpR0Ri0hOfPPtMG6FodgtAxTc1/PK54HS1ymJeta3PHK11UrLrlMaxU/c2RpWvUHikyo6QzFb73K6Bt8VzzTZfo7piRm0Z+4e/reOvhKyOzclKjdM6ZPFRetl8tRnRU/d5n6GWuK95YKmG614h6X6SWVMqP9KmNZtRDWKX4IL12mg+qHRnPgZEbDatXrvJ6PxtVe04DfKN4OB1Mamp56BRbp+TrciDMdUq/8YZXDbo0nSba0T53J192k/bRPDdo33gyvNEUsDUwS0zWqXNREEeyfJ6Ax6eRwE5bBCz1PVbfoVZX5qF35pC2st87QfECzSmleDb4xialfg4uae15b63ld/GmB902WroFNcEo5EWnsKn3DyuIOba0/gtboD80I+lj3cCDwW3/i6LSM7fXYemtq6AORRpHGlSzyiY3H0tRlPDLWpmHGHTnv/6hLWfwFrv0VYADcW4NxhqOS+QAAAABJRU5ErkJggg==" alt="search"/></span>
+            <span class="header__form-icon--arrow"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAAMCAYAAACNzvbFAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAARBJREFUeNqckttqAjEURWOMWvviTyleoIIiFPyEIoKdBwUVtRRREa1g+1RfxButiv5fUXdgD4TB0ekcWCGXk5XMyQQWs/23ECIPXsBG+I8i+AQ7haYAYmABTuDHh/AZzEFQ+yQaC5w5seQh/4kC9wXpsbR0BsqcUEzIeRTqsq0MYUn7JBen4JX9MGv7dEeYBWsQorACvvSCNJI+WApbvAVpF2EG/DJPcN/EXpSO5BGoGeI9SDpyUpy3hVUwNhPklVv0QZP9BwriHCc4jnBcBwOnQLp83jvosP8IjrzRAUQ53wbda5vVjYdo81UbFPeMtTfjUOH1pnY0WQ4ztLx1a5Py8C/qh/vjCw+NervGRYABAGmeMRKf9nETAAAAAElFTkSuQmCC" alt="search"/></span>
+          </form>
+          
+          <ul class="navbar-nav mr-auto header__nav">
+            <li class="nav-item header__nav-item">
+              <a class="nav-link header__nav-link" href="#">الملف الشخصي</a>
+            </li>
+            <li class="nav-item header__nav-item">
+              <a class="nav-link header__nav-link" href="#">الاقتراحات</a>
+            </li>
+            <li class="nav-item header__nav-item">
+              <a class="nav-link header__nav-link" href="#">الوظائف</a>
+            </li>
+            <li class="nav-item header__nav-item">
+              <a class="nav-link header__nav-link" href="#">العقود</a>
+            </li>
+          </ul>
+          
+          <ul class="navbar-nav my-2 my-lg-0 header__info">
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <div class="header__icons">
+                  <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACcAAAAgCAMAAACmeJG/AAAA3lBMVEVHcEykna6kna6kna6kna6kna6kna6kna6kna6kna6kna6kna6kna6kna6kna6kna6kna6kna6kna6kna6kna6kna6kna6kna6kna6kna6kna6kna6kna6kna6kna6kna6kna6kna6kna6kna6kna6kna6kna6kna6kna6kna6kna6kna6kna6kna6kna6kna6kna6kna6kna6kna6kna6kna6kna6kna6kna6kna6kna6kna6kna6kna6kna6kna6kna6kna6kna6kna6kna6kna6kna6kna6kna6kna714silAAAASXRSTlMA5wL7pi75iIf+gukI2RD8IOvYKlg3Ch7yQuq1o7LOD06ljc3xLT8DzF+L+vbKbdugEfMsj7tTHHFRybF0UAlwcykohOi2hcu3AyNMwAAAASxJREFUOMvd1MdSAmEQhdE7zAzyExXJUUGC5Iw5p+/9X8jNUIrAwNq77D6Lrq7qltRwLPxiOQ1JSgXZl2BKcvczCLpygN7saHdmPeBcFsD7WLsy/gKwZAAYTnew6RAAI2+CyWIrW0y8voB5BDCvgQ0V+DDA29xzoeUnQDH+h8WLAP1laOUUHQHETtfYaQxgFNWPkwY2kLv+xe5zgD2Q1pyaBcCEV0MGwgYoNPXXKVsHKFclSdUyQD2rTaeHEkDyWdJLEqAU1TYnXdnAxZnOLgD7cVXecMqfAObWACd57XY6rnj7rxzLzynjAHCekb+T7hIkntYq253S4bQOcRv5V85AZ4/rALKg3fJlrTZYcoB+zefOazeAI7d7wN/outLlAX/oUpJcJ+KrIo4rfQOYOI/LYCnRhQAAAABJRU5ErkJggg==" alt="mail" />
+                  <span class="header__icons-tag">2</span>
+                </div>
+              </a>
+              
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <div class="header__icons">
+                  <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAlCAYAAAAwYKuzAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAtRJREFUeNrMmFuITVEYx9dsY9AJjaaEwovUUaJRyP0SapCmXGdqJA+SV8YllxGK4lGueXBOpIxLkiJHTQxG8YAXFBlPri9GDWP8l75df7u9z+y91l7O+epX3zp77e/772+dvS67Ine2VVnYWLAWzAcTwDD5/Qt4Ae6CC+CtaYJKw/tGgSNgDfBCro8QFoID4CJoBp1JE3kG4lZIddbFvN+Tvs/lXqcV3AhOBoT1gAJoBx+owtPBPNBPfhsKLoNN4LQLgYvBiYC4PNgF3kXcMwYcBA1UTR3jPbiV5hCPBjmqhq7aBtBYRJySa43St4dynpeYqQnUQ1JD7fXgXILq675N1K6JO8xezKFdFBCbM3i58gFROuaSNATuJv8r2G4xb+4A36i901bgRDCD2odlEja1zxLDt5lgvI3ABvJ/JJkeitgpiaWtQl4gY4F15F+3rJ6iZfBaRI5EAoeDLLVbVXp2hfys5EoscI4MgbZeWS3SsoLE9Id5tonAqeS/Bh9TFKhjvaH2NBOBU8h/pNK3hxG5YgnUa3QttZ84EMgxa6P2BVECJ4NMxNOmZe3kZwIF6VMg/2m7wFMHAp9JbN9mJRE4l/z7oNuBwG6JHZazqMD+MsX4dk+5M46tzzUD4gjUTzKY2rcdCuTYg8KqGCZwNfmdjt5gfpP5ILWyL4FVoJ7aV2nGd2G9ksO3etEQKXAVqKb2JeXeOEe1aIgUuIV8fbRs+w8C2yRXmIZ/Zu+6wPqbD1TTpelch2gPsBTc+LuTkE8fVTIZZ1V52EswCfz0h7iljMT5e8Q9/hAvB1tV+Zk+YHVogZ/iHP8i7DgYR1v5Zjpc+V+6XoHNhvG7tMAHFk85knz9ieOM+EPAUfpOc8c0gWc5DL/JHxjh/7JJUGkp8DFYQIdwP9426tNRSoHHSGBGZoOwPqpUQ3wT7C9yvUX6lEygtr1gmRwlvwsFWQ322Qb/I8AAnmSF933AguEAAAAASUVORK5CYII=" alt="mail" />
+                  <span class="header__icons-tag">3</span>
+                </div>
+              </a>
+              
+            </li>
+            <li class="nav-item dropdown header__profile">
+              <span class="header__profile-img dropdown-toggle" id="dropdownMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <img src="data:image/png;base64,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" alt="profile" />
+              </span>
+              <span class="header__profile-name">زينة محمد</span>
+              <span class="header__profile-icon">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAANCAYAAABCZ/VdAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAJtJREFUeNpiZmBgaAHi5UDMCMTHGCgHBUC8EYglQJzPQPwfiuspNLgcyaxfIIFOJAFKLChHM2ciAzQ4JqFJ1JFocBma/llQcxkotQCvwcgWTEZTWEvA4FI09bOxGUyOBSQZjGzBFAIWoBs8hxiD8VlQA5UrocRgfBZsp4bByBZMRTMQhudSYjA+C6hiMLIFPUD8DZqamIjRBBBgAIGlVx2SmAAkAAAAAElFTkSuQmCC" alt="icon" />
+              </span>
+              <div class="dropdown-menu header__profile-menu" aria-labelledby="dropdownMenu2">
+                <a class="dropdown-item header__profile-menu-item" href="#">عرض الملف الشخصي</a>
+                <a class="dropdown-item header__profile-menu-item" href="#">الخروج</a>
+              </div>
+            </li>
+          </ul>
+        </div>    
+      </div>
+    </nav><!-- End Site Header -->
+    <!-- Main Content -->
+    <main class="content">
+      <div class="container">
+        <div class="content__header d-flex justify-content-between">
+          <div class="content__header-block">
+            <h1>تصوير ندوة تعليمية لطلبة الجامعة</h1>
+            <div class="content__header-subblock d-flex">
+              <h3 class="content__header--title">تصوير ندوات</h3>
+              <h3 class="content__header--date">١/٢/٢٠١٨</h3>
+            </div>
+          </div>
+          
+          <div class="content__header-btns">
+            <button class="btn btn--light">
+              <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAbCAMAAABVyG9ZAAAAflBMVEVHcExaZHtaZHtaZHtaZHtaZHtaZHtaZHtaZHtaZHtaZHtaZHtaZHtaZHtaZHtaZHtaZHtaZHtaZHtaZHtaZHtaZHtaZHtaZHtaZHtaZHtaZHtaZHtaZHtaZHtaZHtaZHtaZHtaZHtaZHtaZHtaZHtaZHtaZHtaZHtaZHtaZHvD4KOjAAAAKXRSTlMA/V7h3bvaLWmZ/AFsnCPqBH3zpDm318c0mx6Pjl1NTHrve3bth3R44qNDIRMAAACVSURBVCjP7ZHHDsIwEAXtxKT3ntA78/8/iEkiFAtx5sJc/PTGXq1kISayk5JopDpkwqTkTWmaCh69r+ltqAx1g25KHZwNdYdhSgNc5zJ3lOYCthrRA4+v08lFwRcKYdUNtCuDFpra0iM9cM19XfDG8Fe/UhbsTLWH7RgSSRr7C+IUmUyXNp+/v57fh5ETLPvAiUJdPwEt6B/nPR6GkQAAAABJRU5ErkJggg==" alt="delete" />
+              حذف المشروع
+            </button>
+            <button class="btn btn--light">
+              <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAw9JREFUeNqsl01sDGEYx3enI8RnxImGhOAmKEH0hANLGsdSS4tVtEW7tpQlDr5pd1mh1S6b1YQjCcuFxolESziQiDjg4CSVaNO0SPyf5D/Jm/HO7szsvskvO5mdnd88zzzP+74brInEAyUas0ED2AAWABN8A30gC16oF5slksbAaTAKHoF7YAzMA5tAPegFe8FIKcRB0MUbp8Ap8NN2TRTsBkkwH6wHv4wipWlKP4JjGqmMP+AmWAcWgxty0q/YoHQnuML3+wRMyvObl3y4MFhp+JT2gF3gPYjzPS4HjwvIO8F3Sb1RRKQpFs9D8ApspDxf5L9BDlR6EZdRWgf2gENgM1hFeT8IgWWUT3a4zxcw0/AglfTWggi4xfPPwFOwlm00QHkF066Tj5dWMzxEWstIbytVLdVaBa5LwTCNA0x7BSOfYrvfIvDZcCGV6HYwUlXazXNNRNK+QpFL5EsZuSUvZx/nDBfSMAUZRdrDSaHJ6kumvIpykb2mfAkjn8pJRGauTjOPVKLbxvRmbK0kVd3I9lBHHwutmrIQ0y4P8gHM4j0HDQdphhdEHKQNGqmMBKXdSmu9AQ+Y5pOcx/+bqy1pDVOZtVV1HaVdGqmksRm0gnYKcox0DqVn1QlBlWYLSPdrpEFFGqNUxnNwn9IT4IxuWbSkWzgV3tFU9T6m0C5NUHqYx9Y4x9cV53HALi6jqJrvr9eDNMkZzC49D9rAcR4HdOK0g1SqejuXvbRGKqvSQa63SY1UVqILTr1qckb6wci2giGW/WoX0hYeW0NERwtJreKSG32lcByllfyxTnoVHNBIL1LaVkiqFlda6ctp3El80khTnDiiGukRii+5WXV0M9cIPyc4SFsYtTUus41cS53EY/wMcVkbBmvYZs18ALu0Velf32IZf7k4hJVzd23SdraRZ2m+zZ7J9AYZ9Vs+jDU6KI35kariuWCGwzXDrHhTkUYp7vC7N7bEkq53YKLDdUNcTxOKNFHMPwH1HZdzYddtyuW7hdzG2vvXt3gQTFf60WmMcra6Voo/W/8EGAAl3MXeY1uX0wAAAABJRU5ErkJggg==" alt="edit" />
+              تعديل المشروع
+            </button>
+          </div>
+        </div>
+        <div class="content__inner panel">
+          <div class="row">
+            <div class="col">
+              <ul class="nav nav-tabs panel-nav" id="swTab" role="tablist">
+                <li class="nav-item panel-nav-item">
+                  <a class="nav-link panel-nav-link active" id="desc-tab" data-toggle="tab" href="#description" role="tab" aria-controls="desc" aria-selected="true">عرض تفاصيل المشروع</a>
+                </li>
+                <li class="nav-item panel-nav-item">
+                  <a class="nav-link panel-nav-link" id="invite-tab" data-toggle="tab" href="#invitation" role="tab" aria-controls="invite" aria-selected="true">ارسال دعوة</a>
+                </li>
+                
+                <li class="nav-item panel-nav-item">
+                  <a class="nav-link panel-nav-link" id="suggest-tab" data-toggle="tab" href="#suggestion" role="tab" aria-controls="suggest" aria-selected="true">عرض الاقتراحات</a>
+                </li>
+                
+                <li class="nav-item panel-nav-item">
+                  <a class="nav-link panel-nav-link" id="hire-tab" data-toggle="tab" href="#hiring" role="tab" aria-controls="hire" aria-selected="true">عرض الاقتراحات</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="row">
+             <div class="col-md-8 col-xs-12">
+              <div class="tab-content panel-content" id="swTabContent">
+                <div class="tab-pane fade show active" id="description" role="tabpanel" aria-labelledby="desc-tab">
+                  <p>
+                  ببساطة نص شكلي ويُستخدم في صناعات المطابع ودور النشر. كان لوريم إيبسوم ولايزال المعيار للنص الشكلي منذ القرن الخامس عشر عندما قامت مطبعة مجهولة برص مجموعة من الأحرف بشكل عشوائي أخذتها من نص، لتكوّن كتيّب بمثابة دليل
+                  </p>
+                  <p>
+                   أو مرجع شكلي لهذه الأحرف. خمسة قرون من الزمن لم تقضي على هذا النص، بل انه حتى صار مستخدماً
+                  </p>
+                  <p>
+                  كان لوريم إيبسوم ولايزال المعيار للنص الشكلي منذ القرن الخامس عشر عندما قامت مطبعة مجهولة برص مجموعة من الأحرف بشكل عشوائي أخذتها من نص، لتكوّن كتيّب بمثابة دليل أو مرجع شكلي لهذه الأحرف. خمسة قرون من الزمن لم تقضي على هذا النص.
+                  </p>
+                  <div class="panel-content__attach d-flex justify-content-between">
+                    <div class="panel-content__attach-block">
+                      <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAZCAYAAADaILXQAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAtZJREFUeNqclllszFEUh2dGUSK8EMTy5KEiHhBELLHva5CKdJFSS+ylklqKCg9opRoEKbGVNhq7akKENLaUFy8eEGJQxQMPI1HU7yTflZtmOp3xT77Mmf+c/O65555z7gTz1jQGEnySRLZYIvqJBvFQFIpq3zGUoHB7cUMcFgNFW9FBTBC3xK7/FTfhq2Ki+C0OiNFiGu/t2SrmJyreRlSKcaRhnsgR98RNMUucwHdnIuJOeDIRp4nLUfy2CDvAvqJnPOKtRJmYjvAiUcH7IlEuWuNbJ75jd2tJ3ATOiblEtFScFUFxTKwnv13w7yo6Yn+OJW7vS0UqwivIqQkfEln4bRQfvFzb7y/E2+bEXWSZfLcIj2IXspCrjCLsbWIZ9o7mDtSES8RivueKYuw9LBSgnndjbxAF2MWcw79u8x+LZCV2vtiPvV3kedHnY6/2fEq9xQfY4friFsk67AKv23K9rR4kzwHa3+3qNGlp5JDPi68uLVZim7H3Eak9a8Ve7OPe4pmcQ5DSzKJUZ1NRVmk1IWqyxBPYhJ1Ni9tzSiwnslRSEKKZ0hCeQr6t6e6I9BD1a8PntVjl7cRFVs4B/xFzxBkiq2KhBsbCRYRrxEwRMfEZXj5/ikHswIQveZFNFRfoyNs0l/mPZHDZYHtMN0dcKaYg/sQ7qCQiWCB+MVIriew+g+qHGCquI/xMTBLf/Dpvhx3x2jiAiEU2itwmi0fsNMI8r6blnzcVduJ12L34rOEzB9EqInvKZLTh1B/hTrT7ePEl2gx5gO2G/BGiTmb7LpcushSqobN4iXB9rAFlz0IxmFyOpXat+zLECGsK0YfDtEn4Br/3sS5b295dMUZcoYxqxckmvtbS10QPESbidy3d5C5q23pvbvIyysui6s6Cafh/pK5fxfM3wd0iw6jrIaQiI4p/LY0Ujufi9UeuDf3h7MK2/4n39dRyOgGE47zUA38FGADdg7LJhQlj8wAAAABJRU5ErkJggg==" alt="attach" />
+                      ملف مرفق
+                    </div>
+                    <div class="panel-content__attach-block">
+                      <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAZCAYAAADaILXQAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAtZJREFUeNqclllszFEUh2dGUSK8EMTy5KEiHhBELLHva5CKdJFSS+ylklqKCg9opRoEKbGVNhq7akKENLaUFy8eEGJQxQMPI1HU7yTflZtmOp3xT77Mmf+c/O65555z7gTz1jQGEnySRLZYIvqJBvFQFIpq3zGUoHB7cUMcFgNFW9FBTBC3xK7/FTfhq2Ki+C0OiNFiGu/t2SrmJyreRlSKcaRhnsgR98RNMUucwHdnIuJOeDIRp4nLUfy2CDvAvqJnPOKtRJmYjvAiUcH7IlEuWuNbJ75jd2tJ3ATOiblEtFScFUFxTKwnv13w7yo6Yn+OJW7vS0UqwivIqQkfEln4bRQfvFzb7y/E2+bEXWSZfLcIj2IXspCrjCLsbWIZ9o7mDtSES8RivueKYuw9LBSgnndjbxAF2MWcw79u8x+LZCV2vtiPvV3kedHnY6/2fEq9xQfY4friFsk67AKv23K9rR4kzwHa3+3qNGlp5JDPi68uLVZim7H3Eak9a8Ve7OPe4pmcQ5DSzKJUZ1NRVmk1IWqyxBPYhJ1Ni9tzSiwnslRSEKKZ0hCeQr6t6e6I9BD1a8PntVjl7cRFVs4B/xFzxBkiq2KhBsbCRYRrxEwRMfEZXj5/ikHswIQveZFNFRfoyNs0l/mPZHDZYHtMN0dcKaYg/sQ7qCQiWCB+MVIriew+g+qHGCquI/xMTBLf/Dpvhx3x2jiAiEU2itwmi0fsNMI8r6blnzcVduJ12L34rOEzB9EqInvKZLTh1B/hTrT7ePEl2gx5gO2G/BGiTmb7LpcushSqobN4iXB9rAFlz0IxmFyOpXat+zLECGsK0YfDtEn4Br/3sS5b295dMUZcoYxqxckmvtbS10QPESbidy3d5C5q23pvbvIyysui6s6Cafh/pK5fxfM3wd0iw6jrIaQiI4p/LY0Ujufi9UeuDf3h7MK2/4n39dRyOgGE47zUA38FGADdg7LJhQlj8wAAAABJRU5ErkJggg==" alt="attach" />
+                      ملف مرفق
+                    </div>
+                    <div class="panel-content__attach-block">
+                      <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAZCAYAAADaILXQAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAtZJREFUeNqclllszFEUh2dGUSK8EMTy5KEiHhBELLHva5CKdJFSS+ylklqKCg9opRoEKbGVNhq7akKENLaUFy8eEGJQxQMPI1HU7yTflZtmOp3xT77Mmf+c/O65555z7gTz1jQGEnySRLZYIvqJBvFQFIpq3zGUoHB7cUMcFgNFW9FBTBC3xK7/FTfhq2Ki+C0OiNFiGu/t2SrmJyreRlSKcaRhnsgR98RNMUucwHdnIuJOeDIRp4nLUfy2CDvAvqJnPOKtRJmYjvAiUcH7IlEuWuNbJ75jd2tJ3ATOiblEtFScFUFxTKwnv13w7yo6Yn+OJW7vS0UqwivIqQkfEln4bRQfvFzb7y/E2+bEXWSZfLcIj2IXspCrjCLsbWIZ9o7mDtSES8RivueKYuw9LBSgnndjbxAF2MWcw79u8x+LZCV2vtiPvV3kedHnY6/2fEq9xQfY4friFsk67AKv23K9rR4kzwHa3+3qNGlp5JDPi68uLVZim7H3Eak9a8Ve7OPe4pmcQ5DSzKJUZ1NRVmk1IWqyxBPYhJ1Ni9tzSiwnslRSEKKZ0hCeQr6t6e6I9BD1a8PntVjl7cRFVs4B/xFzxBkiq2KhBsbCRYRrxEwRMfEZXj5/ikHswIQveZFNFRfoyNs0l/mPZHDZYHtMN0dcKaYg/sQ7qCQiWCB+MVIriew+g+qHGCquI/xMTBLf/Dpvhx3x2jiAiEU2itwmi0fsNMI8r6blnzcVduJ12L34rOEzB9EqInvKZLTh1B/hTrT7ePEl2gx5gO2G/BGiTmb7LpcushSqobN4iXB9rAFlz0IxmFyOpXat+zLECGsK0YfDtEn4Br/3sS5b295dMUZcoYxqxckmvtbS10QPESbidy3d5C5q23pvbvIyysui6s6Cafh/pK5fxfM3wd0iw6jrIaQiI4p/LY0Ujufi9UeuDf3h7MK2/4n39dRyOgGE47zUA38FGADdg7LJhQlj8wAAAABJRU5ErkJggg==" alt="attach" />
+                      ملف مرفق
+                    </div>
+                  </div>
+                  
+                </div>
+                
+                <div class="tab-pane fade" id="invitation" role="tabpanel" aria-labelledby="invite-tab">
+                  To be Filled with Invitation
+                </div>
+                <div class="tab-pane fade" id="suggestion" role="tabpanel" aria-labelledby="suggest-tab">
+                  To be Filled with Suggestion
+                </div>
+                <div class="tab-pane fade" id="hiring" role="tabpanel" aria-labelledby="hire-tab">
+                  To be Filled with Hiring
+                </div>
+              </div>
+              <div class="panel-footer d-flex">
+                <div class="panel-footer__item">
+                  <img class="panel-footer__item--img" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAZCAMAAAAR624oAAAAb1BMVEVHcExjZWtjZWtjZWtjZWtjZWtjZWtjZWtjZWtjZWtjZWtjZWtjZWtjZWtjZWtjZWtjZWtjZWtjZWtjZWtjZWtjZWtjZWtjZWtjZWtjZWtjZWtjZWtjZWtjZWtjZWtjZWtjZWtjZWtjZWtjZWtjZWu+L7tSAAAAJHRSTlMAhzziePgiu4h34cL59/ORlJV+hWzBYz7DcxobrGkhq2iDhJCrWHOKAAAAn0lEQVQoz6XS6RKCIBQFYJIuVLhkZbav5/2fMUtEBy80TecX4zcMcjlCfJJUBD9UJcJqCi6pdQMqZ35Kwq5lwlKMU4DaBTBheAr8yLfrJcY5FmrEWm/tpxV6dzzIuneOB/7mjfaTNX7oOGfHuY/ulsfg2fdGVfDXHk4D95YqNjWpIkM9n9QfL8Yy35Zn1xaDrJj7KVzXvjRV1IbpuanFC4QlHxLqoWQ1AAAAAElFTkSuQmCC" alt="enter" />
+                  <label class="panel-footer__item--label">الدعوات المرسلة:</label>
+                  <span class="panel-footer__item--tag">13</span>
+                </div>
+                <div class="panel-footer__item">
+                  <img class="panel-footer__item--img" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAMAAAAM7l6QAAAAclBMVEVHcExjZWtjZWtjZWtjZWtjZWtjZWtjZWtjZWtjZWtjZWtjZWtjZWtjZWtjZWtjZWtjZWtjZWtjZWtjZWtjZWtjZWtjZWtjZWtjZWtjZWtjZWtjZWtjZWtjZWtjZWtjZWtjZWtjZWtjZWtjZWtjZWtjZWu04jsTAAAAJXRSTlMApuq1gvxcu7Tu4h/pIS4JpbgLCuPhPbHDUXFsrCognCXPdrzvmO/BeQAAAJlJREFUKM/N08kSgyAQRdEGoxGcp8xzcv//F7NKlSiYrW97Ft1d8ESy2uCNqTORIieYvBAFduuNBSWGvhVvWosRiCSQCATSEKfr4+N+t8BJzCHMSQynGd/e9+qnm/nsFzSVow4/NDTVWN3ZpYbnWCerlRrGOt281I7ODrtezit/MZcXv6Kh7/zaWYwoGPw1GED9K1G4gh+VyReLwCZ413cEkwAAAABJRU5ErkJggg==" alt="check" />
+                  <label class="panel-footer__item--label">الدعوات المجابة:</label>
+                  <span class="panel-footer__item--tag">4</span>
+                </div>
+                <div class="panel-footer__item">
+                  <img class="panel-footer__item--img" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAMAAAAM7l6QAAAAwFBMVEVHcExjZWtjZWtjZWtjZWtjZWtjZWtjZWtjZWtjZWtjZWtjZWtjZWtjZWtjZWtjZWtjZWtjZWtjZWtjZWtjZWtjZWtjZWtjZWtjZWtjZWtjZWtjZWtjZWtjZWtjZWtjZWtjZWtjZWtjZWtjZWtjZWtjZWtjZWtjZWtjZWtjZWtjZWtjZWtjZWtjZWtjZWtjZWtjZWtjZWtjZWtjZWtjZWtjZWtjZWtjZWtjZWtjZWtjZWtjZWtjZWtjZWtjZWtjZWtEO6/XAAAAP3RSTlMA9RUQ+OoD/loG6Uxul4A/81eWWK05m+jTkvnUUJQBmfST7AXFQk3Bv4HGRpHAvvrHb05bT5w2moTrxEBkZT4Qq7+QAAABSklEQVQoz23T11bCQBSF4Z1mSCKhN0WqohQFe/d//7fyIgPJQM7Vyfoms6bskfY1Tzarnu/3VptkruPy0oBDfaaera0egH9593DpA/RaBTxrAs74O5KkqDZ2gObZQdsQvrr5cLcbQnvvU6gPJUmj35+RJGlYh6tMG+B0snYN66zrONCQJC8mHJp5KlAx7XNI7ElKoatTVhdSKQpw3DJ2HYJICVRVxqpCogHUyrkGU33hR+Uc+VwroK9yVp9AF9xa/JF/3XNh81tIeG6xNbnOi94n0HVxaZk/FpZmbcz4jSTpD6b2sRhv7I9loWhWOFRJ0k1jJEnuhCCS0uPfTY0hNRe6ONVKSOCZONQ7x9pxwMTxCuovtj7lYcqi2C1G8b0YxSzIk2rNBLk5sYIsqRXbzyBuHT2i5Sx/RLOld7KTeTLYxdttvBsk+SX8A1hkNOFwQZ7HAAAAAElFTkSuQmCC" alt="time" />
+                  <label class="panel-footer__item--label">اخر ظهور للعميل:</label>
+                  <span class="panel-footer__item--tag">من ساعتين</span>
+                </div>
+              </div>
+            </div>
+            
+            <div class="content__side col-md-4 col-xs-12">
+              <div class="content__card d-flex">
+                <div class="content__card-item">
+                  <img class="content__card-item--img" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAMAAAAM7l6QAAAAsVBMVEVHcEx7hZ17hZ17hZ17hZ17hZ17hZ17hZ17hZ17hZ17hZ17hZ17hZ17hZ17hZ17hZ17hZ17hZ17hZ17hZ17hZ17hZ17hZ17hZ17hZ17hZ17hZ17hZ17hZ17hZ17hZ17hZ17hZ17hZ17hZ17hZ17hZ17hZ17hZ17hZ17hZ17hZ17hZ17hZ17hZ17hZ17hZ17hZ17hZ17hZ17hZ17hZ17hZ17hZ17hZ17hZ17hZ17hZ17hZ1BkKbAAAAAOnRSTlMAWOiAEFvuA+nqTCYkrZZWQgHgxXIFBpL5cZRXuN/Ek8ag7VNBQEuBnviR7JzH+lrh71JUuX8C659NGMJtnAAAARtJREFUKM+Fk9eWgjAURS9NEuwgKPY6dqe3/f8fNg8KCsJ4npLstZJ7kx2RJKG3m5rbrTndeaHkY1uaNN+WnaWGSSamcQPdBgD+JnaceOMD0HBTWgeYLtvnaXsZANQTPgFem7dnNStA/zweAC/VbC1VHxiIiNgmVGr5TmoVULaIfAKLu0blHbBEQg1DKcgH6EiegFYRbgGedEG5RdhVMJExzKQwMwhEQ6cYd0BLD5xi/Ay9R/jB5kFpaT8QlDf2pWDy/7X8SlR2qUPQkYgFvN3TxflJxFZlD6rtRIdRXocRcNGxD8yzMs2vMl1UHK8SFVfjjIqpyIfYceLDKCeyiBgq+w2UkftE6/0V7tf2XaOh1z2q00kdu16ULv4Burg340HybUcAAAAASUVORK5CYII=" alt="circle" />
+                  <label class="content__card-item--title">السعر:</label>
+                  <span class="content__card-tag">200 ريال</span>
+                </div>
+                <div class="content__card-item">
+                  <img class="content__card-item--img" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAMAAAAM7l6QAAAAw1BMVEVHcEx7hZ17hZ17hZ17hZ17hZ17hZ17hZ17hZ17hZ17hZ17hZ17hZ17hZ17hZ17hZ17hZ17hZ17hZ17hZ17hZ17hZ17hZ17hZ17hZ17hZ17hZ17hZ17hZ17hZ17hZ17hZ17hZ17hZ17hZ17hZ17hZ17hZ17hZ17hZ17hZ17hZ17hZ17hZ17hZ17hZ17hZ17hZ17hZ17hZ17hZ17hZ17hZ17hZ17hZ17hZ17hZ17hZ17hZ17hZ17hZ17hZ17hZ17hZ17hZ2LJqq9AAAAQHRSTlMAFRDq+AP1/loG6W6XgD9M81eWWDmtm+iS0/nUUJQBmU70k+wFxULBv+uBkQjGRsC+x/pvTVtPnDaahMRAZGU+mbq76QAAAUxJREFUKM9t09d2gkAUheFNEYSI2GKLsWui6b0n//s/VS4YhVHO1WF9w6wpe6RdLdOrm57v926u0qUOy0089rVJXFvbPQD/7PL+zAfotQtYaQHB5DuSpKg+CYBWZa+nEL45+XCnG8LpzufQGEmSxr8/Y0nSqAHnmTYh6GTtLdxmXSeApiS5MeHIzFOFqmlfQmJXUgJdHbO6kEiRR+CUsRPgRUqhpjJWDVL1oV7OdZjrCz8q58hnJY+BylkDPA25sPgz/7pjaPN7SHhisTW5Too+wNOquLTMnwpLszZmfC1J+oO5psVjMd7cHctU14vCoUqS1s2xJDkzNtdScvi7qQkk5kKfj7Ua4rkmDo3OoXYCMHE8h8arrdM8TFkUu8UofhSjmAV5VqubILdmVpAltWP7GcTtg0e0XeSPaLF1j3ayTPsP8eNj/NBP80v4BzzSNhG9OCPCAAAAAElFTkSuQmCC" alt="circle" />
+                  <label class="content__card-item--title">موعد بداية المشروع:</label>
+                  <span class="content__card-tag">3 فبراير 2018</span>
+                </div>
+                <div class="content__card-item">
+                  <img class="content__card-item--img" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAMAAAAM7l6QAAAAw1BMVEVHcEx7hZ17hZ17hZ17hZ17hZ17hZ17hZ17hZ17hZ17hZ17hZ17hZ17hZ17hZ17hZ17hZ17hZ17hZ17hZ17hZ17hZ17hZ17hZ17hZ17hZ17hZ17hZ17hZ17hZ17hZ17hZ17hZ17hZ17hZ17hZ17hZ17hZ17hZ17hZ17hZ17hZ17hZ17hZ17hZ17hZ17hZ17hZ17hZ17hZ17hZ17hZ17hZ17hZ17hZ17hZ17hZ17hZ17hZ17hZ17hZ17hZ17hZ17hZ17hZ2LJqq9AAAAQHRSTlMAFRDq+AP1/loG6W6XgD9M81eWWDmtm+iS0/nUUJQBmU70k+wFxULBv+uBkQjGRsC+x/pvTVtPnDaahMRAZGU+mbq76QAAAUxJREFUKM9t09d2gkAUheFNEYSI2GKLsWui6b0n//s/VS4YhVHO1WF9w6wpe6RdLdOrm57v926u0qUOy0089rVJXFvbPQD/7PL+zAfotQtYaQHB5DuSpKg+CYBWZa+nEL45+XCnG8LpzufQGEmSxr8/Y0nSqAHnmTYh6GTtLdxmXSeApiS5MeHIzFOFqmlfQmJXUgJdHbO6kEiRR+CUsRPgRUqhpjJWDVL1oV7OdZjrCz8q58hnJY+BylkDPA25sPgz/7pjaPN7SHhisTW5Too+wNOquLTMnwpLszZmfC1J+oO5psVjMd7cHctU14vCoUqS1s2xJDkzNtdScvi7qQkk5kKfj7Ua4rkmDo3OoXYCMHE8h8arrdM8TFkUu8UofhSjmAV5VqubILdmVpAltWP7GcTtg0e0XeSPaLF1j3ayTPsP8eNj/NBP80v4BzzSNhG9OCPCAAAAAElFTkSuQmCC" alt="circle" />
+                  <label class="content__card-item--title">موعد التسليم المطلوب:</label>
+                  <span class="content__card-tag">12 فبراير 2018</span>
+                </div>
+              </div>
+              <div class="content__card d-flex">
+                <div class="content__card-item">
+                  <h3 class="content__card-item-h">الخبرات</h3>
+                </div>
+                <div class="content__card-item">
+                  <span class="content__card-item-tag">مصور</span>
+                  <span class="content__card-item-tag">مخرج</span>
+                  <span class="content__card-item-tag">فني</span>
+                  <span class="content__card-item-tag">مساعد مصور</span>
+                  <span class="content__card-item-tag">تصوير</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main><!-- End Main Content -->
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="row footer-nav">
+          <div class="col-3">
+            <nav class="navbar">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">من نحن</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">المدونة</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">شروط الاستخدام</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">قوانين الخصوصية</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">تواصل معنا</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <div class="col-3">
+            <nav class="navbar">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">من نحن</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">المدونة</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">شروط الاستخدام</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">قوانين الخصوصية</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">تواصل معنا</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <div class="col-3">
+            <nav class="navbar">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">من نحن</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">المدونة</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">شروط الاستخدام</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">قوانين الخصوصية</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">تواصل معنا</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <div class="col-3">
+            <nav class="navbar">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">من نحن</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">المدونة</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">شروط الاستخدام</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">قوانين الخصوصية</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">تواصل معنا</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+        <div class="footer-copy d-flex">
+          <p>جميع الحقوق محفوظة لموقع فريلانسر</p>
+          <div class="footer-social">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACkAAAApCAYAAACoYAD2AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAvFJREFUeNrUmUloFEEUhrsnM45LXDC4nIxK9BAiEs2oaFBRRHPxEBDBmwYUA4KYQDx60YAXEQXNIXoSPAhuIC5xATcQFyQXNSdNokkkMonGmBht/wevoXzULN3TXT158A286uruR3VVvf/V2I7jWBksARaA+cC2wrPfoJ/RGwUp2ASugRHHrPWD82CJjEl1kqDdid7GwEFdkCXgulNcdlQG2eIUn02AGorPxk8ppmYPmG2ZsV/gWIZrC8Fhxb8DdtAo1hseobRmsbrUakazLIZIU5ZZS3roWwKqYzzEJm2qx/7zKMgpVnGbHbMmgU2KIOMRvfdlhvbSsIOcAF3gJ012sChL39WmP/cAOMKKqRLUgHKwGJxklRPpnLwPVoBT4Ju49hG0gLXgU9BzkuZLWtO+TsyZ12Anf95s9gZs4+fOVNop8A+a/hX8Ff7Tk5dEKqrVpKs5LKFc+wuqs6Q3HU3iPc8z9GsV/fbk+7k3ik3/IY+QF2sDI4pP6XhWkHOySvgdPqbWD/BM5OXKIIMsE363zzXQneO5BQU5LvxpPoOcodlbAwuyV/jLfQZZkeO5BQX5Svj1PvbYZWCV4n8H74IM8gX4ovhLwT6PQR4X9fvtoD/3H95CVDsN1uR5fyPYJdrOhJEWKfV9VvzpnBZ3Z7mHFlgrOCvab4LHYUi1YbAX3OI9zpVWl0ETuAg6uR8dzawHDRo1RMcp+8PUk3f5BW3i3lSeBR2JkDrQF7YKusAvGvR4XyePrtd06luqdXBKOwdGc/Tt4+lAOvO96fJhgFdtM9gONvPWRCXrEMuwRyxGChK+QZQPpCevMqFVi8OibW7ExaHUBeMxjbTfEuVBgOb9PaSEU0IJj7pHbhFwSMQyCBJxrj3egpXKWc0DcALc4NXphDh6Ca4uGzSbfDstOpsP9jdwYMV0LtTLFUHa3SefggP5qhID9pUr0bRbLapsBV0RH0PfA+VqXLbmf5w4i9o6VuBJAyM3xGnzCngiL/4TYABJyTNeUYYdTQAAAABJRU5ErkJggg==" alt="insta" />
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACsAAAAjCAYAAAANDvOtAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAtBJREFUeNrMmE1IFVEUxxs/+tAXz01mKbVIUsrASKEi6BMDoSIoAiHE2uVCwpW0kYiWhWG0CFxEiyDoaxGRRBAFIeSib0KzyAgsTXpmiuH0u3GEYZgZ77y5M88DP957M2/u/Ofcc8+ZeyzbthclaNVQD6WgbvweHsMfrauV2Jix4Ci8tr1tArqhzOPaQmiBuv9OdZ3shBUGhRbDTVvPxmCPXLceOmAIPsFit9hSmIF+SBsQmg+P7HA2DcOO37PQMDemc/Djjj/1ifgoYs/a0a1dxkpBZZ4jfDc4vqtF8AyqslxIq6E9wkKchoswA3egD0adnrjs8WQZCfCwXj1tm7Nx2KTGdXr2u8cTpqAH7kFlCM80GEp1o7AXXqkfTrEvAy46AG+gC9Zq3GSdAaFK4DZ44ZVnUzLt85nKGDfgICz1CYMBA9Pf5B7X6dkJ6NZ44gI4BndhRD7PwD5YI+eHDXg2z33AcpXbYnF7VcQb/RXRUeywZAJP9buhCBrhc8QbFRjw7FiQq5vgC1yCXslxubTBoDBo1YzZJOwXpIM8+wBmF4jY5/OtuEFJ/gvBnngddGcDVaX6YXmOxdZIEQrMZQNwRPvNPR575yXUM/FiDyWNfcyR2Ct+J6yAPdgSOAEnoRbyExCakSo4HiZ5K5HNUolKfGYgDrvgJzTIs6skfosSnP4RWeAZ7ZcFsW/QkXCstgUJ1dmKd9nJ2C2dHYjOFqUNfsco9IPubtrS7MioDeApOAQbVawbmnr1ZrVDcmssHZn98MPQRrAuzL3DiCyHHmk8RLWvsCWso3T6VNvhKkwZilHVQKnIpnGiisIy2AlTUiTSsjvdDLugzFB8qgJzHs5l/WIvqmvgfowrvhdqo/bP3Afq4bqhKZ+Ea7DVVFfSL3WVSJpqlBBZqTlRqvI9lV3HbfhpssTp5tlyadxVSNe6UOIuI/2GIXgr7Z7Y7J8AAwDGwfzsS8SovgAAAABJRU5ErkJggg==" alt="insta" />
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAApCAYAAAA4c3k5AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAOlJREFUeNpi/P//PwMRQB6IrYBYDof8EwaQQXiwJhDvBOJ///GDwyx4XOEExBuBmIcYJzPhEBcH4tXEGoLPoFogFmIgAWAziB2IYxlIBNgMsgZiPlINwhbY2gT03AHiyUD8A0nsBTaDCIVNNBCfIsZrHES4iOhYwwf+UssgBpoaBApsASCuQBKzJ6CnAYh/oom9YgRmOFCOfkihg45Ry2svqGXQc2oZ9IpaBj2jlkEvQdH/CYg70aLfAo+mCVii/zK2crqdQPnMj618H3xZZNSgUYNGDRo1aDBV2ejgIBAz4tHzE5sgQIABAJvinYiJ31x7AAAAAElFTkSuQmCC" alt="insta" />
+          </div>
+        </div>
+      </div>
+    </footer><!-- End Footer -->
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.rtlcss.com/bootstrap/v4.0.0/js/bootstrap.min.js" integrity="sha384-54+cucJ4QbVb99v8dcttx/0JRx4FHMmhOWi4W+xrXpKcsKQodCBwAvu3xxkZAwsH" crossorigin="anonymous"></script>
+    <script src="bundle.js"></script>
+  </body>
+ 
+</html>
